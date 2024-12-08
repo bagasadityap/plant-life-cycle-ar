@@ -1,0 +1,234 @@
+{
+  "asset": {
+    "extras": {
+      "author": "Render at Night (https://sketchfab.com/Render_at_Night)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/sunflower-seed-bf3bae75c18a457195ee602511fb2745",
+      "title": "Sunflower Seed"
+    },
+    "generator": "gltfeditor.com",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "untitled.bin",
+      "byteLength": 134112
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 60840,
+      "byteStride": 24,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 60840,
+      "byteLength": 20280,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 81120,
+      "byteLength": 52992,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2535,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2535,
+      "min": [
+        -0.9094489812850952,
+        -0.48247700929641724,
+        -1.4287110567092896
+      ],
+      "max": [
+        0.9094489812850952,
+        0.48247700929641724,
+        1.470062017440796
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 2535,
+      "min": [
+        0.0018210000125691295,
+        0
+      ],
+      "max": [
+        1.0018219947814941,
+        1
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 13248,
+      "min": [
+        0
+      ],
+      "max": [
+        2534
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        2
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Object_2",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -2.5588541769966562e-14,
+        1.2295970916748047,
+        1
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "Sunflower_Seed_High_Poly.obj.cleaner.materialmerger.gles",
+      "children": [
+        0
+      ]
+    },
+    {
+      "name": "Sketchfab_model",
+      "children": [
+        1
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        3.422854177870249e-8,
+        -0.9999999403953552,
+        0,
+        0,
+        0.9999999403953552,
+        3.422854177870249e-8,
+        0,
+        0,
+        0.2052050679922104,
+        7.023870818301248e-9,
+        1
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "material": 0,
+          "mode": 4,
+          "attributes": {
+            "NORMAL": 0,
+            "POSITION": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Sunflower_Seed_TEX",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.8108055163114133,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "name": "base.jpg",
+      "source": 0
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "images": [
+    {
+      "uri": "base.jpg",
+      "mimeType": "image/jpeg",
+      "name": "base.jpg"
+    }
+  ]
+}
