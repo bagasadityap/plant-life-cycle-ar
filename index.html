@@ -1,0 +1,44 @@
+<!doctype HTML>
+<html>
+<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+<script src="js/aframe.min.js"></script>
+<script src="js/aframe-ar.js"></script>
+<body style="margin: 0px; overflow: hidden;">
+
+<a-scene embedded vr-mode-ui="enabled: false;" arjs="debugUIEnabled: false;">
+
+    <a-assets>
+        <a-asset-item id="flower1" src="models/level1/untitled.gltf"></a-asset-item>
+        <a-asset-item id="flower2" src="models/level2/untitled.gltf"></a-asset-item>
+        <a-asset-item id="flower3" src="models/level3/untitled.gltf"></a-asset-item>
+	</a-assets>
+    
+    <a-marker type="pattern" url="data/letterA.patt">
+        <a-entity   position="0 0 0" 
+                    rotation="0 0 0"
+                    scale="4 4 4"
+                    gltf-model="#flower1">
+        </a-entity>
+    </a-marker>
+    
+    <a-marker type="pattern" url="data/letterB.patt">
+        <a-entity   position="0 0 0" 
+                    rotation="0 0 0"
+                    scale="4 4 4"
+                    gltf-model="#flower2">
+        </a-entity>
+    </a-marker>
+    
+    <a-marker type="pattern" url="data/letterC.patt">
+        <a-entity   position="0 0 0" 
+                    rotation="0 0 0"
+                    scale="4 4 4"
+                    gltf-model="#flower3">
+        </a-entity>
+    </a-marker>
+    
+    <a-entity camera></a-entity>
+    
+</a-scene>
+</body>
+</html>

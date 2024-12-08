@@ -1,0 +1,360 @@
+{
+  "asset": {
+    "extras": {
+      "author": "DuNguyn Studio (https://sketchfab.com/dunguyn)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/free-pack-stylized-tomato-7613f2aec8f54695b7c219946473cb24",
+      "title": "Free Pack - Stylized Tomato"
+    },
+    "generator": "gltfeditor.com",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "untitled.bin",
+      "byteLength": 71252
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 30976,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 30976,
+      "byteLength": 23232,
+      "byteStride": 24,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 54208,
+      "byteLength": 7744,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 61952,
+      "byteLength": 9300,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 968,
+      "min": [
+        0.9019607901573181,
+        0.8392156958580017,
+        0.7450980544090271,
+        1
+      ],
+      "max": [
+        0.9019607901573181,
+        0.8392156958580017,
+        0.7490196228027344,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 16,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 968,
+      "min": [
+        -0.9973414540290833,
+        -0.9970040917396545,
+        -0.9984749555587769,
+        -1
+      ],
+      "max": [
+        0.997487485408783,
+        0.99824059009552,
+        0.9999535083770752,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 968,
+      "min": [
+        -0.9997760057449341,
+        -0.9972693920135498,
+        -0.9897500276565552
+      ],
+      "max": [
+        0.9982120990753174,
+        1,
+        0.9999939203262329
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 968,
+      "min": [
+        12.93930435180664,
+        -0.000006559957910212688,
+        1.5492639541625977
+      ],
+      "max": [
+        40.94365310668945,
+        47.484649658203125,
+        28.566936492919922
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "normalized": false,
+      "count": 968,
+      "min": [
+        0.008928775787353516,
+        0.0074286796152591705
+      ],
+      "max": [
+        0.9906624555587769,
+        0.9902248382568359
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "normalized": false,
+      "count": 2325,
+      "min": [
+        0
+      ],
+      "max": [
+        967
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        5
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "SM_Tomato_Lv2_Tomato_SG_0",
+      "mesh": 0
+    },
+    {
+      "name": "SM_Tomato_Lv2",
+      "children": [
+        0
+      ]
+    },
+    {
+      "name": "Tomato",
+      "children": [
+        1
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -25.427919387817383,
+        0,
+        -14.409154891967773,
+        1
+      ]
+    },
+    {
+      "name": "RootNode",
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "e0e9f0a257434aff97e7734d57dffb85.fbx",
+      "children": [
+        3
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0,
+        0,
+        0,
+        0,
+        3.42285422227917e-10,
+        0.009999999776482582,
+        0,
+        0,
+        -0.009999999776482582,
+        3.42285422227917e-10,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Sketchfab_model",
+      "children": [
+        4
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        3.422854177870249e-8,
+        -0.9999999403953552,
+        0,
+        0,
+        0.9999999403953552,
+        3.422854177870249e-8,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "material": 0,
+          "mode": 4,
+          "attributes": {
+            "COLOR_0": 0,
+            "TANGENT": 1,
+            "NORMAL": 2,
+            "POSITION": 3,
+            "TEXCOORD_0": 4
+          },
+          "indices": 5
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Tomato_SG",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": true,
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 1
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "name": "base.jpg",
+      "source": 0
+    },
+    {
+      "sampler": 1,
+      "name": "metallicRoughness.jpg",
+      "source": 1
+    },
+    {
+      "sampler": 2,
+      "name": "normal.jpg",
+      "source": 2
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "images": [
+    {
+      "uri": "base.jpg",
+      "mimeType": "image/jpeg",
+      "name": "base.jpg"
+    },
+    {
+      "uri": "metallicRoughness.jpg",
+      "mimeType": "image/jpeg",
+      "name": "metallicRoughness.jpg"
+    },
+    {
+      "uri": "normal.jpg",
+      "mimeType": "image/jpeg",
+      "name": "normal.jpg"
+    }
+  ]
+}
